@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".AddPhoneActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="#E5F96F">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="#E5F96F"
+            android:paddingLeft="10dp"
+            android:paddingTop="5dp"
+            android:text="@string/add_phone"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            tools:ignore="RtlHardcoded,RtlSymmetry" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/edtPhoneName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:autofillHints="no"
+        android:background="@drawable/backround"
+        android:gravity="start"
+        android:hint="@string/enter_phone_name"
+        android:inputType="text"
+        android:padding="20dp"
+        android:textAlignment="textStart"
+        android:textColorHint="#474747"
+        android:textSize="20sp"
+        tools:ignore="TextFields" />
+
+    <EditText
+        android:id="@+id/edtInformation"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="20dp"
+        android:layout_weight="2"
+        android:background="@drawable/backround"
+        android:gravity="start"
+        android:hint="@string/enter_phone_s_information"
+        android:padding="20dp"
+        android:textAlignment="textStart"
+        android:textColorHint="#474747"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="157dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="235dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#E5F96F"
+        android:text="Add"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+</LinearLayout>

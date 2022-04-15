@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="developer.abdusamid.phoneapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/phone_logo"
+        android:label="Phone App"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PhoneAppHW">
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".PhonesInfoActivity" />
+        <activity android:name=".PhonesListActivity" />
+        <activity android:name=".AddPhoneActivity" />
+        <activity android:name=".PhoneCategoryActivity" />
+        <activity android:name=".PhonesActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+
+        </activity>
+    </application>
+</manifest>

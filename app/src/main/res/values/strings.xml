@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">PhoneApp</string>
+    <string name="phones">Phones</string>
+    <string name="add_phone">Add Phone</string>
+    <string name="samsung">Samsung</string>
+    <string name="iphone">iPhone</string>
+    <string name="redmi">Redmi</string>
+    <string name="artel">Artel</string>
+    <string name="information">Enter phone\'s information</string>
+    <string name="enter_phone_name">Enter phone name</string>
+    <string name="save">Save</string>
+</resources>

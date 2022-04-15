@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".PhonesActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#E5F96F">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="#E5F96F"
+            android:paddingLeft="10dp"
+            android:paddingTop="5dp"
+            android:text="Phones"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/ip_card"
+            android:layout_width="160dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#E5F96F"
+            app:cardCornerRadius="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Iphone"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                tools:ignore="HardcodedText" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/sam_card"
+            android:layout_width="160dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="60dp"
+            android:backgroundTint="#E5F96F"
+            app:cardCornerRadius="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Samsung"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                tools:ignore="HardcodedText" />
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/micard"
+            android:layout_width="160dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#E5F96F"
+            app:cardCornerRadius="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Redmi"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                tools:ignore="HardcodedText" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/sonycard"
+            android:layout_width="160dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="60dp"
+            android:backgroundTint="#E5F96F"
+            app:cardCornerRadius="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Sony"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                tools:ignore="HardcodedText" />
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/hw_card"
+            android:layout_width="160dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#E5F96F"
+            app:cardCornerRadius="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Huawei"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                tools:ignore="HardcodedText" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/at_card"
+            android:layout_width="160dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="60dp"
+            android:backgroundTint="#E5F96F"
+            app:cardCornerRadius="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Artel"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                tools:ignore="HardcodedText" />
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</LinearLayout>
